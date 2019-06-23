@@ -1,11 +1,15 @@
 package Creational.factory;
 
-public class WebsiteFactory {
+class WebsiteFactory {
 
-    public static Website getWebsite(String siteType){
-        if (siteType.equals("blog")) {
-            return new Blog();
+    static Website getWebsite(WebsiteType siteType){
+        switch (siteType){
+            case BLOG:
+                return new Blog();
+            case SHOP:
+                return new Shop();
+            default:
+                return null;
         }
-        return new Shop();
     }
 }
