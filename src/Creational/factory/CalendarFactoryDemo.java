@@ -7,7 +7,7 @@ public class CalendarFactoryDemo {
     public static void main(String[] args) {
 
         Calendar cal = Calendar.getInstance();
-        //Calendar cal = Calendar.get
+        //Calendar cal = Calendar.get...
 
         System.out.println(cal);
 
