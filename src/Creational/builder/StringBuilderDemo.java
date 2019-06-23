@@ -1,6 +1,6 @@
 package Creational.builder;
 
-public class BuilderEverydayDemo {
+public class StringBuilderDemo {
 
     public static void main(String[] args) {
         StringBuilder builder = new StringBuilder();

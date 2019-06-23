@@ -1,6 +1,6 @@
 package Creational.singleton;
 
-public class SingletonEverydayDemo {
+public class SingletonRuntimeDemo {
 
 	public static void main(String[] args) {
 		
