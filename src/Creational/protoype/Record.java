@@ -1,5 +1,5 @@
 package Creational.protoype;
 
-public class Record {
+class Record {
 
 }

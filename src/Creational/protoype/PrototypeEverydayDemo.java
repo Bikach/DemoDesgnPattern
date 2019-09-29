@@ -22,7 +22,9 @@ public class PrototypeEverydayDemo {
 		System.out.println(firstStatement.getParameters());
 		
 		System.out.println(firstStatement.getRecord());
-		
+
+		System.out.println("===== Creat clone ======");
+
 		Statement secondStatement = firstStatement.clone();
 		
 		System.out.println(secondStatement.getSql());
