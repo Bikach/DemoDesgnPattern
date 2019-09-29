@@ -10,21 +10,26 @@ public abstract class Item implements Cloneable {
 		return super.clone();
 	}
 	
-	public String getTitle() {
+	String getTitle() {
 		return title;
 	}
-	public void setTitle(String title) {
+
+	void setTitle(String title) {
 		this.title = title;
 	}
+
 	public double getPrice() {
 		return price;
 	}
-	public void setPrice(double price) {
+
+	void setPrice(double price) {
 		this.price = price;
 	}
-	public String getUrl() {
+
+	String getUrl() {
 		return url;
 	}
+
 	public void setUrl(String url) {
 		this.url = url;
 	}

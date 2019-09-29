@@ -1,5 +1,5 @@
 package Creational.factory;
 
-public class CartPage extends Page {
+class CartPage extends Page {
 
 }

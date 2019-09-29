@@ -8,13 +8,13 @@ public class Statement implements Cloneable {
 	private List<String> parameters;
 	private Record record;
 
-	public Statement(String sql, List<String> parameters, Record record) {
+	Statement(String sql, List<String> parameters, Record record) {
 		this.sql = sql;
 		this.parameters = parameters;
 		this.record = record;
 	}
 
-	public Statement clone() {
+	protected Statement clone() {
 		try {
 			return (Statement) super.clone();
 		} catch (CloneNotSupportedException e) {
@@ -23,15 +23,15 @@ public class Statement implements Cloneable {
 		return null;
 	}
 
-	public List<String> getParameters() {
+	List<String> getParameters() {
 		return parameters;
 	}
 
-	public Record getRecord() {
+	Record getRecord() {
 		return record;
 	}
 
-	public String getSql() {
+	String getSql() {
 		return sql;
 	}
 

@@ -1,14 +1,14 @@
 package Creational.protoype;
 
-public class Movie extends Item {
+class Movie extends Item {
 
 	private String runtime;
 
-	public String getRuntime() {
+	String getRuntime() {
 		return runtime;
 	}
 
-	public void setRuntime(String runtime) {
+	void setRuntime(String runtime) {
 		this.runtime = runtime;
 	}
 	

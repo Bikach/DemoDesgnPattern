@@ -8,7 +8,7 @@ public class Book extends Item {
 		return numberOfPages;
 	}
 
-	public void setNumberOfPages(int numberOfPages) {
+	void setNumberOfPages(int numberOfPages) {
 		this.numberOfPages = numberOfPages;
 	}
 }

@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DbSingleton {
+class DbSingleton {
 
 	private static volatile DbSingleton instance = null;
 	private static volatile Connection conn = null;
@@ -26,7 +26,7 @@ public class DbSingleton {
 		}
 	}
 	
-	public static DbSingleton getInstance() {
+	static DbSingleton getInstance() {
 		if(instance == null) {
 			synchronized(DbSingleton.class) {
 				if(instance == null) {
@@ -38,7 +38,7 @@ public class DbSingleton {
 		return instance;
 	}
 	
-	public Connection getConnection() {
+	Connection getConnection() {
 		if(conn == null) {
 			synchronized (DbSingleton.class) {
 				if(conn == null) {

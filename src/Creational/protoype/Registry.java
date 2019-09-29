@@ -3,15 +3,15 @@ package Creational.protoype;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Registry {
+class Registry {
 
 	private Map<String, Item> items = new HashMap<String, Item>();
 	
-	public Registry() {
+	Registry() {
 		loadItems();
 	}
 	
-	public Item createItem (String type) {
+	Item createItem(String type) {
 		Item item = null;
 		
 		try {

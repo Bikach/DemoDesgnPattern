@@ -1,6 +1,6 @@
 package Creational.builder;
 
-public class LunchOrder {
+class LunchOrder {
 
 	public static class Builder {
 		private String bread;
@@ -8,15 +8,15 @@ public class LunchOrder {
 		private String dressing;
 		private String meat;
 		
-		public Builder() {
+		Builder() {
 			
 		}
 		
-		public LunchOrder build() {
+		LunchOrder build() {
 			return new LunchOrder(this);
 		}
 		
-		public Builder bread(String bread) {
+		Builder bread(String bread) {
 			this.bread = bread;
 			return this;
 		}
@@ -26,12 +26,12 @@ public class LunchOrder {
 			return this;
 		}
 		
-		public Builder dressing(String dressing) {
+		Builder dressing(String dressing) {
 			this.dressing = dressing;
 			return this;
 		}
 		
-		public Builder meat(String meat) {
+		Builder meat(String meat) {
 			this.meat = meat;
 			return this;
 		} 
@@ -50,19 +50,19 @@ public class LunchOrder {
 		this.meat = builder.meat;
 	}
 
-	public String getBread() {
+	String getBread() {
 		return bread;
 	}
 
-	public String getCondiments() {
+	String getCondiments() {
 		return condiments;
 	}
 	
-	public String getDressing() {
+	String getDressing() {
 		return dressing;
 	}
 	
-	public String getMeat() {
+	String getMeat() {
 		return meat;
 	}
 	

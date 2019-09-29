@@ -1,5 +1,5 @@
 package Creational.factory;
 
-public class PostPage extends Page {
+class PostPage extends Page {
 
 }

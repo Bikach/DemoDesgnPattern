@@ -1,5 +1,5 @@
 package Creational.factory;
 
-public class CommentPage extends Page {
+class CommentPage extends Page {
 
 }

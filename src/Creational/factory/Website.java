@@ -5,13 +5,13 @@ import java.util.List;
 
 public abstract class Website {
 
-	protected List<Page> pages = new ArrayList<>();
+	List<Page> pages = new ArrayList<>();
 	
-	public List<Page> getPages() {
+	List<Page> getPages() {
 		return pages;
 	}
 
-	public Website() {
+	Website() {
 		this.createWebsite();
 	}
 	

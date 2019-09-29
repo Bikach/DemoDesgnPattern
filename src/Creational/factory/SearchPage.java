@@ -1,5 +1,5 @@
 package Creational.factory;
 
-public class SearchPage extends Page {
+class SearchPage extends Page {
 
 }

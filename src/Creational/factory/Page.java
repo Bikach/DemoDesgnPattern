@@ -1,5 +1,5 @@
 package Creational.factory;
 
-public abstract class Page {
+abstract class Page {
 
 }

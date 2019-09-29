@@ -1,44 +1,44 @@
 package Creational.builder;
 
-public class LunchOrderTele {
+class LunchOrderTele {
 
 	private String bread;
 	private String condiments;
 	private String dressing;
 	private String meat;
 	
-	public LunchOrderTele (String bread) {
+	private LunchOrderTele(String bread) {
 		this.bread = bread;	
 	}
 	
-	public LunchOrderTele (String bread, String condiments) {
+	private LunchOrderTele(String bread, String condiments) {
 		this(bread);
 		this.condiments = condiments;
 	}
 	
-	public LunchOrderTele (String bread, String condiments, String dressing) {
+	private LunchOrderTele(String bread, String condiments, String dressing) {
 		this(bread, condiments);
 		this.dressing = dressing;
 	}
 	
-	public LunchOrderTele (String bread, String condiments, String dressing, String meat) {
+	LunchOrderTele(String bread, String condiments, String dressing, String meat) {
 		this(bread, condiments, dressing);
 		this.meat = meat;
 	}
 
-	public String getBread() {
+	String getBread() {
 		return bread;
 	}
 	
-	public String getCondiments() {
+	String getCondiments() {
 		return condiments;
 	}
 
-	public String getDressing() {
+	String getDressing() {
 		return dressing;
 	}
 
-	public String getMeat() {
+	String getMeat() {
 		return meat;
 	}
 }
