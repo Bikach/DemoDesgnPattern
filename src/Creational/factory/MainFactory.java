@@ -9,4 +9,4 @@ public class MainFactory {
         site = WebsiteFactory.getWebsite(WebsiteType.SHOP);
         System.out.println(site.getPages());
     }
-}x
+}
