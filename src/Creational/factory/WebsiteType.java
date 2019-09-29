@@ -1,5 +1,7 @@
 package Creational.factory;
 
 public enum WebsiteType {
-    BLOG, SHOP
+
+	BLOG,SHOP;
+	
 }

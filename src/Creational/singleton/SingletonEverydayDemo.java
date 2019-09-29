@@ -1,8 +1,8 @@
 package Creational.singleton;
 
-public class SingletonRuntimeDemo {
+public class SingletonEverydayDemo {
 
-	public static void main(String[] args) {
+	public static void main(String args[]) {
 		
 		Runtime singletonRuntime = Runtime.getRuntime();
 

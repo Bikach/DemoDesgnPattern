@@ -1,15 +1,21 @@
 package Creational.factory;
 
-class WebsiteFactory {
+public class WebsiteFactory {
 
-    static Website getWebsite(WebsiteType siteType){
-        switch (siteType){
-            case BLOG:
-                return new Blog();
-            case SHOP:
-                return new Shop();
-            default:
-                return null;
-        }
-    }
+	public static Website getWebsite(WebsiteType siteType) {
+		switch(siteType) {
+			case BLOG : {
+				return new Blog();
+			}
+		
+			case SHOP : {
+				return new Shop();
+			}
+			
+			default : {
+				return null;
+			}
+ 		}
+	}
+	
 }

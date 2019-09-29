@@ -1,4 +1,5 @@
 package Creational.factory;
 
-public class ContactPage extends Page{
+public class ContactPage extends Page {
+
 }
