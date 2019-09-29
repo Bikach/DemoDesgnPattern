@@ -1,20 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@Bikach
-0
-00Bikach/XspeedIt
- Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights Settings
-XspeedIt/.gitignore
-@Bikach Bikach extract fillBox, change Optional<Integer> to currentArticle
-f27fe78 on 7 Jul
-114 lines (86 sloc)  2.08 KB
-
 
 # Created by https://www.gitignore.io/api/java,intellij
 # Edit at https://www.gitignore.io/?templates=java,intellij
@@ -128,15 +111,3 @@ temp
 hs_err_pid*
 
 # End of https://www.gitignore.io/api/java,intellij
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
