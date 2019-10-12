@@ -2,14 +2,14 @@ package structural.adapter;
 
 import java.util.StringTokenizer;
 
-public class EmployeeCSV {
+class EmployeeCSV {
 
 	private int id;
 	private String firstname;
 	private String lastname;
 	private String emailAddress;
 
-	public EmployeeCSV(String values) {
+	EmployeeCSV(String values) {
 		StringTokenizer tokenizer = new StringTokenizer(values, ",");
 		if (tokenizer.hasMoreElements()) {
 			id = Integer.parseInt(tokenizer.nextToken());
@@ -25,36 +25,20 @@ public class EmployeeCSV {
 		}
 	}
 
-	public String getEmailAddress() {
+	String getEmailAddress() {
 		return emailAddress;
 	}
 
-	public String getFirstname() {
+	String getFirstname() {
 		return firstname;
 	}
 
-	public int getId() {
+	int getId() {
 		return id;
 	}
 
-	public String getLastname() {
+	String getLastname() {
 		return lastname;
-	}
-
-	public void setEmailAddress(String emailAddress) {
-		this.emailAddress = emailAddress;
-	}
-
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	public void setLastname(String lastname) {
-		this.lastname = lastname;
 	}
 
 }

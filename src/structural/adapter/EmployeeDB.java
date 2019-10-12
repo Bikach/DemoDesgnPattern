@@ -7,7 +7,7 @@ public class EmployeeDB implements Employee {
 	private String lastName;
 	private String email;
 	
-	public EmployeeDB(String id, String firstName, String lastName, String email) {
+	EmployeeDB(String id, String firstName, String lastName, String email) {
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;

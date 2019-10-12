@@ -4,7 +4,7 @@ public class EmployeeAdapterCSV implements Employee {
 
 	private EmployeeCSV instance;
 	
-	public EmployeeAdapterCSV(EmployeeCSV instance) {
+	EmployeeAdapterCSV(EmployeeCSV instance) {
 		this.instance = instance;
 	}
 	

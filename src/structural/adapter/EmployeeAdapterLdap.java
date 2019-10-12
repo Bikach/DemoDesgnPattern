@@ -4,7 +4,7 @@ public class EmployeeAdapterLdap implements Employee {
 
 	private EmployeeLdap instance;
 	
-	public EmployeeAdapterLdap(EmployeeLdap instance) {
+	EmployeeAdapterLdap(EmployeeLdap instance) {
 		this.instance = instance;
 	}
 	
