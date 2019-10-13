@@ -26,5 +26,4 @@ public class HtmlFormatter implements Formatter {
 
 		return builder.toString();
 	}
-
 }

@@ -16,5 +16,4 @@ class Detail {
 	String getValue() {
 		return value;
 	}
-
 }

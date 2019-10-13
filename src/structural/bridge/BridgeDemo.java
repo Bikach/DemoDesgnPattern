@@ -19,5 +19,4 @@ public class BridgeDemo {
 		String htmlMaterial = moviePrinter.print(htmlFormatter);
 		System.out.println(htmlMaterial);
 	}
-
 }

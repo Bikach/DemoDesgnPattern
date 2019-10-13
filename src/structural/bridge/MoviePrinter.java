@@ -26,5 +26,4 @@ public class MoviePrinter extends Printer {
 	protected String getHeader() {
 		return movie.getClassification();
 	}
-
 }
