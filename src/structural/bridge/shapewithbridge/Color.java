@@ -1,4 +1,4 @@
-package structural.bridge.shape2;
+package structural.bridge.shapewithbridge;
 
 public interface Color {
 	void applyColor();

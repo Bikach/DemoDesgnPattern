@@ -1,4 +1,4 @@
-package structural.bridge.shape2;
+package structural.bridge.shapewithbridge;
 
 public class Blue implements Color {
 

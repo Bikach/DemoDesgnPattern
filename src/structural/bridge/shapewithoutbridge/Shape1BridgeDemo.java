@@ -1,4 +1,4 @@
-package structural.bridge.shape1;
+package structural.bridge.shapewithoutbridge;
 
 public class Shape1BridgeDemo {
 

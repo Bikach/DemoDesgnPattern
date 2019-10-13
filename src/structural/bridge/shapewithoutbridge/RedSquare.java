@@ -1,10 +1,9 @@
-package structural.bridge.shape1;
+package structural.bridge.shapewithoutbridge;
 
-public class RedCircle extends Circle {
+public class RedSquare extends Square {
 
 	@Override
 	public void applyColor() {
 		System.out.println("Applying red color");
 	}
-
 }

@@ -1,6 +1,6 @@
-package structural.bridge.shape2;
+package structural.bridge.shapewithoutbridge;
 
-public class Green implements Color {
+public class GreenSquare extends Square {
 
 	@Override
 	public void applyColor() {
