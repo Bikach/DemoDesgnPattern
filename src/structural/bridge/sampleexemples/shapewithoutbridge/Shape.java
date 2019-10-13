@@ -1,4 +1,4 @@
-package structural.bridge.shapewithoutbridge;
+package structural.bridge.sampleexemples.shapewithoutbridge;
 
 public abstract class Shape {
 
