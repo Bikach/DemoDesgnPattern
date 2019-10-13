@@ -20,8 +20,7 @@ public class BridgeEverydayDemo {
 			Statement sta = conn.createStatement(); 
 			
 			//This client is an abstraction and can work with any database that has a driver
-			sta.executeUpdate("CREATE TABLE Address (ID INT, StreetName VARCHAR(20),"
-							+ " City VARCHAR(20))");
+			sta.executeUpdate("CREATE TABLE Address (ID INT, StreetName VARCHAR(20), City VARCHAR(20))");
 			
 			System.out.println("Table created");
 
