@@ -1,4 +1,4 @@
-package composite;
+package structural.composite;
 
 import java.util.HashMap;
 import java.util.Map;

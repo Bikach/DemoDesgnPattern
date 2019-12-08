@@ -1,6 +1,4 @@
-package composite;
-
-import java.util.Iterator;
+package structural.composite;
 
 public class Menu extends MenuComponent {
 	
@@ -11,23 +9,22 @@ public class Menu extends MenuComponent {
 	
 	@Override
 	public MenuComponent add(MenuComponent menuComponent) {
-		menuComponents.add(menuComponent);
+		super.menuComponents.add(menuComponent);
 		return menuComponent;
 	}
 	
 	@Override
 	public MenuComponent remove(MenuComponent menuComponent) {
-		menuComponents.remove(menuComponent);
+		super.menuComponents.remove(menuComponent);
 		return menuComponent;
 	}
 	
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder(); //builder pattern
-		
 		builder.append(print(this));
 
-		for (MenuComponent menuComponent : menuComponents) {
+		for (MenuComponent menuComponent : super.menuComponents) {
 			builder.append(menuComponent.toString());
 		}
 		

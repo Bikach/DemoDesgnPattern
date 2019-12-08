@@ -1,4 +1,4 @@
-package composite;
+package structural.composite;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,15 +16,7 @@ public abstract class MenuComponent {
 	public MenuComponent remove(MenuComponent menuComponent) {
 		throw new UnsupportedOperationException("Feature not implemented at this level");
 	}
-	
-	public String getName() {
-		return name;
-	}
-	
-	public String getUrl() {
-		return url;
-	}	
-	
+
 	public abstract String toString();
 	
 	String print(MenuComponent menuComponent) {
